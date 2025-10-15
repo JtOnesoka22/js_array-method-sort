@@ -39,6 +39,8 @@ function applyCustomSort() {
 
     return this;
   };
+
+  [].__proto__.sort = [].__proto__.sort2;
 }
 
 module.exports = applyCustomSort;
