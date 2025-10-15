@@ -43,4 +43,6 @@ function applyCustomSort() {
   [].__proto__.sort = [].__proto__.sort2;
 }
 
+applyCustomSort();
+
 module.exports = applyCustomSort;
